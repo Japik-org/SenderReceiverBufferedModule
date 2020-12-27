@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>com.pro100kryto.server.modules</groupId>
+    <artifactId>SenderReceiverBufferedModule</artifactId>
+    <version>1.0</version>
+
+    <properties>
+        <maven.compiler.source>8</maven.compiler.source>
+        <maven.compiler.target>8</maven.compiler.target>
+    </properties>
+
+    <dependencies>
+        <dependency>
+            <groupId>com.pro100kryto.server</groupId>
+            <artifactId>Server</artifactId>
+            <scope>provided</scope>
+            <version>[0.1.0, 0.2.0)</version>
+        </dependency>
+        <dependency>
+            <groupId>com.pro100kryto.server.utils</groupId>
+            <artifactId>Datagram</artifactId>
+            <scope>provided</scope>
+            <version>1.0</version>
+        </dependency>
+        <dependency>
+            <groupId>com.pro100kryto.server.modules</groupId>
+            <artifactId>PacketPoolModule</artifactId>
+            <scope>provided</scope>
+            <version>[1.0.0, 1.1.0)</version>
+        </dependency>
+        <dependency>
+            <groupId>com.pro100kryto.server.modules</groupId>
+            <artifactId>ProtocolModule-connection</artifactId>
+            <scope>provided</scope>
+            <version>[1.0.0, 1.1.0)</version>
+        </dependency>
+        <dependency>
+            <groupId>com.sun.istack</groupId>
+            <artifactId>istack-commons-runtime</artifactId>
+            <scope>provided</scope>
+            <version>4.0.0</version>
+        </dependency>
+
+        <dependency>
+            <groupId>com.pro100kryto.server.modules</groupId>
+            <artifactId>ReceiverBufferedModule-connection</artifactId>
+            <scope>provided</scope>
+            <version>[1.0.0, 1.1.0)</version>
+        </dependency>
+        <dependency>
+            <groupId>com.pro100kryto.server.modules</groupId>
+            <artifactId>SenderModule-connection</artifactId>
+            <scope>provided</scope>
+            <version>[1.0.0, 1.1.0)</version>
+        </dependency>
+    </dependencies>
+</project>
