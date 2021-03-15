@@ -17,51 +17,37 @@
         <dependency>
             <groupId>com.pro100kryto.server</groupId>
             <artifactId>Server</artifactId>
-            <scope>provided</scope>
-            <version>[0.1.0, 0.2.0)</version>
+            <version>[0.1.0-SNAPSHOT, 0.3.0)</version>
         </dependency>
-        <dependency>
-            <groupId>com.pro100kryto.server.utils</groupId>
-            <artifactId>Datagram</artifactId>
-            <scope>provided</scope>
-            <version>1.0</version>
-        </dependency>
-        <dependency>
-            <groupId>com.pro100kryto.server.modules</groupId>
-            <artifactId>PacketPoolModule</artifactId>
-            <scope>provided</scope>
-            <version>[1.0.0, 1.1.0)</version>
-        </dependency>
-        <dependency>
-            <groupId>com.pro100kryto.server.modules</groupId>
-            <artifactId>ProtocolModule-connection</artifactId>
-            <scope>provided</scope>
-            <version>[1.0.0, 1.1.0)</version>
-        </dependency>
-        <dependency>
-            <groupId>com.sun.istack</groupId>
-            <artifactId>istack-commons-runtime</artifactId>
-            <scope>provided</scope>
-            <version>4.0.0</version>
-        </dependency>
-
         <dependency>
             <groupId>com.pro100kryto.server.modules</groupId>
             <artifactId>ReceiverBufferedModule-connection</artifactId>
-            <scope>provided</scope>
-            <version>[1.0.0, 1.1.0)</version>
+            <version>[1.0.0-SNAPSHOT, 2.0.0)</version>
         </dependency>
         <dependency>
             <groupId>com.pro100kryto.server.modules</groupId>
             <artifactId>SenderModule-connection</artifactId>
-            <scope>provided</scope>
-            <version>[1.0.0, 1.1.0)</version>
+            <version>[1.0.0-SNAPSHOT, 2.0.0)</version>
+        </dependency>
+        <dependency>
+            <groupId>com.pro100kryto.server.modules</groupId>
+            <artifactId>ProtocolModule-connection</artifactId>
+            <version>[1.0.0-SNAPSHOT, 2.0.0)</version>
         </dependency>
         <dependency>
             <groupId>com.pro100kryto.server.modules</groupId>
             <artifactId>PacketPoolModule-connection</artifactId>
-            <scope>provided</scope>
-            <version>1.0</version>
+            <version>[1.0.0-SNAPSHOT, 2.0.0)</version>
+        </dependency>
+        <dependency>
+            <groupId>com.pro100kryto.server.utils</groupId>
+            <artifactId>Datagram</artifactId>
+            <version>[1.0.0-SNAPSHOT, 2.0.0)</version>
+        </dependency>
+        <dependency>
+            <groupId>org.jetbrains</groupId>
+            <artifactId>annotations</artifactId>
+            <version>13.0</version>
         </dependency>
     </dependencies>
 </project>
