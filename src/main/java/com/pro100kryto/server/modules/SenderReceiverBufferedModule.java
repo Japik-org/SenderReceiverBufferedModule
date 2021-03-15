@@ -129,6 +129,7 @@ public class SenderReceiverBufferedModule extends Module {
                 } catch (NullPointerException ignored){
 
                 } catch (Throwable throwable){
+                    logger.writeException(throwable);
                     packetInProcess.recycle();
                 }
 
